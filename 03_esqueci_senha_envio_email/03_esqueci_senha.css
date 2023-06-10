@@ -9,6 +9,7 @@
 
 body {
     background: #F2F2F2;
+    height: 770px;
 }
 /*cabeçalho*/
 header {
@@ -24,20 +25,17 @@ main {
 }
 /*referente ao texto "esqueci minha senha"*/
 h1 {
-    padding-right: 428px;
-    padding-left: 428px;
-    font-size: 48px;
-    margin-top: 182px;
-    margin-bottom: 30px;
+    font-size: 3rem/*48px*/;
+    margin-top: 11.375rem/*182px*/;
+    margin-bottom: 1.875rem/*30px*/;
     color: #0D132B;
 
 }
 /*referente a mensagem abaixo do h1*/
 p {
-    font-size: 24px;
-    margin-bottom: 60px;
+    font-size: 1.5rem/*24px*/;
+    margin-bottom: 3.75rem/*60px*/;
     color: #0D132B;
-    /*text-align: left;*/
 }
 /*alinhar o rodape ao centro*/
 footer {
@@ -45,21 +43,20 @@ footer {
 }
 /*refente ao tezto do rodape*/
 footer p {
-    font-size: 14px;
+    font-size: 0.875rem/*14px*/;
     color: #595959;
-    margin-bottom: 17px;
 }
 /*referente a barra em cima do texto do rodape*/
 hr {
     background: #A6A6A6;
     transform: matrix(1, 0, 0, -1, 0, 0);
 
-    width: 787px;
-    height: 1px;
-    top: 1px;
+    width: 49.188rem/*787px*/;
+    height: 0.063rem/*1px*/;
+    top: 0.063rem/*1px*/;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: 7px;
+    margin-bottom: 0.438rem/*7px*/;
 }
 
 
@@ -67,17 +64,17 @@ hr {
 .logo {
     width: 80px;
     height: 80px;
-    margin-left: 37px;
+    margin-left:37px;
     margin-top: -3px;
-    margin-bottom: 2px;
+    margin-bottom:2px;
 
     float: left;
 }
 
 .botao {
-    width: 87px;
-    margin-right: 40px;
-    margin-top: 23px;
+    width: 5.438rem/*87px*/;
+    margin-right: 2.5rem/*40px*/;
+    margin-top: 1.438rem/*23px*/;
 
     float: right;
 }
@@ -90,7 +87,7 @@ hr {
     width: 544px;
     height: 40px;
 
-    margin-bottom: 171px;
+    margin-bottom: 188px;
     font-size: 16px;
     color: #0D132B;
 }
@@ -104,4 +101,33 @@ hr {
     border-radius: 3px;
 
     font-size: 14px;
+}
+
+@media screen and (max-width: 360px){
+    header {
+        height: 64px;
+    }
+
+    /*corpo do site*/
+    main {
+        margin: auto;
+        text-align: left;
+    }
+    /*referente ao texto "esqueci minha senha"*/
+    h1 {
+        font-size: 1.875rem/*30px*/;
+
+        margin-top: 12.938rem/*207px*/;
+        margin-left: 2.25rem/*36px*/;
+        margin-right: 1.438rem/*23px*/;
+
+    /*referente a mensagem abaixo do h1*/
+    p {
+        font-size: 1rem/*16px*/;
+        padding-left: 36px;
+        padding-right: 46.71px;
+    }
+
+}
+
 }
