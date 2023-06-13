@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste da EJECT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="esqueci-minha-senha.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="assents/logo.svg" alt="Logo da EJECT" />
+            <a class="login-button" href="pages/login/login.html">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h1 id="h1">Esqueci minha senha</h1>
+            <p id="p">Enviaremos um link para o seu e-mail para que você possa<br/>redefinir sua senha.</p>
+            <form class="forgot-password-form" action="">
+                <div class="label-and-input">
+                    <label for="email" id="email1">Digite seu email para redefinir a senha</label>
+                    <input class="form-input" type="email" name="email" id="email" />
+                </div>
+                <button type="submit">ENVIAR E-MAIL</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <span>EJECT CVB © 2022 . Desenvolvido pela EJECT</span>
+            <img class="logo_eject" src="assents/logo-dark.svg" alt="Logo da EJECT-Copyright" />
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('resize', function () {
+            var myTextElement = document.getElementById('p');
+            var windowWidth = window.innerWidth;
+
+            if (windowWidth <= 400) {
+                myTextElement.innerHTML = 'Enviaremos um link para o seu e-mail para que<br/>você possa redefinir sua senha.';
+            } else {
+                myTextElement.innerHTML = 'Enviaremos um link para o seu e-mail para que você possa<br/>redefinir sua senha.';
+            }
+        });
+        window.addEventListener('resize', function () {
+            var myTextElement1 = document.getElementById('h1');
+            var windowWidth1 = window.innerWidth;
+
+            if (windowWidth1 <= 400) {
+                myTextElement1.innerHTML = 'Esqueci minha<br/>senha';
+            } else {
+                myTextElement1.innerHTML = 'Esqueci minha senha';
+            }
+        });
+        window.addEventListener('resize', function () {
+            var myTextElement2 = document.getElementById('email1');
+            var windowWidth2 = window.innerWidth;
+
+            if (windowWidth <= 400) {
+                myTextElement2.innerHTML = 'Digite seu email para redefinir a<br/>senha';
+            } else {
+                myTextElement2.innerHTML = 'Digite seu email para redefinir a senha';
+            }
+        });
+    </script>
+</body>
+
+</html>
