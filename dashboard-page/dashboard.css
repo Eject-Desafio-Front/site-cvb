@@ -88,13 +88,11 @@
   font-size: 24px;
   color: #0d132b;
 }
-.user span {
-  color: #5b827e;
-  font-size: 20px;
-}
 .edit {
   margin-top: 36px;
   margin-bottom: 15px;
+  color: #5b827e;
+  font-size: 20px;
 }
 .inputs {
   display: flex;
@@ -148,4 +146,14 @@ input {
 }
 hr{
   width: 70vw;
+}
+/* second-page */
+.inputs-two{
+  width: 100%;
+  gap: 10px;
+  font-size: 16px;
+  color: #0d132b;
+  font-size: 16px;
+  font-weight: 700;
+  /* display: flex; */
 }
