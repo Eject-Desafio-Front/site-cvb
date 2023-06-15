@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.titulos_celula {
+    background: #606060;
+    border: 1px solid #DADADA;
+}
+
+.celula_tabela {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: #F2F2F2;
+}
