@@ -8,7 +8,7 @@
 
 body {
     background-color: #F2F2F2;
-    
+
     height: 100vh;
 }
 
@@ -76,7 +76,8 @@ main {
     flex-direction: column;
     /* gap: 20px; */
 }
-h1{
+
+h1 {
     width: 264px;
     height: 54px;
     font-weight: 800;
@@ -102,13 +103,13 @@ h1{
     flex-direction: column;
 }
 
-.label-and-input > label {
+.label-and-input>label {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
 }
 
-.label-and-input #senha{
+.label-and-input #senha {
     margin-top: 30px;
 }
 
@@ -143,7 +144,7 @@ h1{
     gap: 10px;
 }
 
-.checkbox-container > input{
+.checkbox-container>input {
     width: 20px;
     height: 20px;
 
@@ -153,7 +154,7 @@ h1{
     margin-bottom: 50px;
 }
 
-.checkbox-container > span{
+.checkbox-container>span {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -161,7 +162,7 @@ h1{
     color: #0D132B;
 }
 
-form > button {
+form>button {
     height: 40px;
 
     background-color: #F9C500;
@@ -179,7 +180,7 @@ form > button {
     border: none;
 }
 
-form > button:hover {
+form>button:hover {
     background-color: #e3b201;
 }
 
@@ -196,7 +197,7 @@ footer {
     align-items: center;
 }
 
-footer > div {
+footer>div {
     width: 60%;
     height: 100%;
     text-align: center;
@@ -205,7 +206,7 @@ footer > div {
     border-top: 1px solid #A6A6A6;
 }
 
-footer > span{
+footer>span {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -215,42 +216,42 @@ footer > span{
 
 @media screen and (max-width: 600px) {
 
-    header{
-         height: 64px;
+    header {
+        height: 64px;
     }
 
-    .header-container{
-         display: none;
-    }
-    
-    .form-input{
-         width: 303px;
+    .header-container {
+        display: none;
     }
 
-    h1{
-         margin-bottom: 50px;
+    .form-input {
+        width: 303px;
     }
 
-    main{
-         height: calc(100% - 87px)
+    h1 {
+        margin-bottom: 50px;
     }
 
-    footer{
-         height: 23px;
-
-         font-weight: 700;
-         font-size: 9px;
+    main {
+        height: calc(100% - 87px)
     }
 
-    footer > div{
-         width: 70%;
-         padding-top: 4px;
+    footer {
+        height: 23px;
 
-         justify-content: center;
+        font-weight: 700;
+        font-size: 9px;
     }
 
-    footer > span{
-         margin-right: 8px;
+    footer>div {
+        width: 70%;
+        padding-top: 4px;
+
+        justify-content: center;
+    }
+
+    footer>span {
+        margin-right: 8px;
     }
 
 }
