@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css" />
+    <link rel="stylesheet" href="entidade.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu-lateral">
+            <img src="../assets/eject.svg" alt="Logo-eject" class="item" />
+            <div class="itens-menu">
+                <div class="item">
+                    <img src="../assets/house.svg" alt="Log-Inicio" class="icon-item" /><span>Início</span>
+                </div>
+                <div class="item">
+                    <img src="../assets/funil.svg" alt="Logo-Funil" class="icon-item" /><span>Funil</span>
+                </div>
+                <div class="item">
+                    <img src="../assets/team.svg" alt="Logo-entidades" class="icon-item" /><span>Entidades</span>
+                </div>
+                <div class="item">
+                    <img src="../assets/filter.svg" alt="Logo-filtros" class="icon-item" /><span>Filtros</span>
+                </div>
+                <div class="item">
+                    <img src="../assets/user.svg" alt="Logo-Usuário" class="icon-item" /><span>Usuários</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-principal">
+            <div class="top">
+                <img src="../assets/img-user.svg" alt="Foto-user" class="item" />
+            </div>
+            <div class="conteudo">
+                <h1>Entidades</h1>
+                <div class="search-container">
+                    <div class="input-buscar">
+                        <input type="text" id="campoBusca" placeholder="pesquisar">
+                        <img class="img-path" onclick="buscar()" src="../assets/path.svg" alt="logo-path">
+                    </div>
+                    <a class="cadastrar" href="#">Cadastrar Entidade</a>
+                </div>
+                <p id="mostrando">Mostrando 10 de 51 resultados</p>
+                <div id="tabela">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Telefone</th>
+                                <th>Contato</th>
+                                <th>Endereço</th>
+                                <th>Representante</th>
+                                <th>Número de Telefone</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabelaBody">
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                            <tr class="teste1">
+                                <td class="filho1">Associação de Médicos do RN</td>
+                                <td class="filho2">(84) 99999-999</td>
+                                <td class="filho3">medicosdorn@gmail.com</td>
+                                <td class="filho4">Av. Senador Salgado Filho, 1090 - Tirol</td>
+                                <td class="filho5">João da Silva</td>
+                                <td class="filho6">(84) 99999-999</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="tr-foot">
+                                <td colspan="6" id="passadorFooter">
+                                    <div id="passador">
+                                        <button class="anteanterior" id="anteanterior">&lt;&lt;</button>
+                                        <button class="anterior" id="anterior">&lt;</button>
+                                        <span id="pag_anterior"></span>
+                                        <span id="paginacao">2</span>
+                                        <span id="paginacao">3</span>
+                                        <span id="paginacao">4</span>
+                                        <span id="pag_sucessor"></span>
+                                        <button class="proximo" id="proximo">&gt;</button>
+                                        <button class="posterior" id="posterior">&gt;&gt;</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+            </div>
+            <footer id="footer">
+                <div class="footer-container">
+                    <span class="footer-bold">EJECT CVB</span> &copy; 2022 . Desenvolvido pela
+                    <span class="footer-bold">EJECT</span>
+                    <img src="../assets/footer.svg" alt="Simbolo EJECT" />
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="entidade.css"></script>
+</body>
+
+</html>
