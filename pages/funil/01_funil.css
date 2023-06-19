@@ -205,36 +205,48 @@ td {
     align-items: center;
 }
 
-tfoot {
-    background: #606060;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.linha_tabela:hover {
+    color: #07D0A1;
 }
 
-.seta {
-    border: none;
-    width: 9.72px;
-    height: 9.92px;
-
-    color: #F2F2F2;
-    background: none;
-}
-
-.num_centro,.num_lado {
-     color: #F2F2F2;
-    background: none;
-}
-
-.num_centro {
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.num_lado {
-    font-weight: 400;
-    font-size: 14px;
+/*codigo jakelyne*/
+tfoot { 
+    background-color: #606060; 
+} 
+ 
+ 
+#passador { 
+    color: #f2f2f2; 
+    width: 20%; 
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 auto; 
+} 
+ 
+#passadorFooter { 
+    text-align: center; 
+    font-weight: bold; 
+ 
+} 
+ 
+#paginacao { 
+    font-weight: 400; 
+    font-size: 14px; 
+} 
+ 
+.anterior, 
+.proximo { 
+    background: none; 
+    border: none; 
+    color: #F2F2F2; 
+    ; 
+} 
+ 
+.anteanterior, 
+.posterior { 
+    background: none; 
+    border: none; 
+    color: #F2F2F2; 
 }
 
 .rodape {
@@ -242,9 +254,8 @@ tfoot {
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: 15px
+    bottom: 15px;
 
-    /*display: flex;*/
 }
 
 .linha_rodape {
