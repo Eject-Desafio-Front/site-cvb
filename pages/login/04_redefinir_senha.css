@@ -76,7 +76,7 @@ body {
 .texto_main {
     font-size: 16px;
     font-weight: 700;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     color: #0D132B;
 }
 
@@ -161,7 +161,7 @@ body {
 
     .container_main {
         padding-left: 44px;
-        
+
     }
 
     .contanier_logo,
@@ -188,7 +188,7 @@ body {
         width: 284.11px;
     }
 
-    .linha_rodape {    
+    .linha_rodape {
         width: 271px;
         top: 0.063rem
             /*1px*/
@@ -196,11 +196,11 @@ body {
         margin: 0 auto;
         margin-bottom: 9px;
     }
-    
+
     .texto_rodape {
         font-size: 9px;
     }
-    
+
     .rodape {
         bottom: 9px;
     }

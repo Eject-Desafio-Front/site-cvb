@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-main {
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.seccao-direita {
+    width: 30%;
+}
+
+.seccao-esquerda {
+    width: 60%;
+    padding: 30px;
+    /* background-color: tomato; */
+}
+
+
+.infos-gerais {
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+    /* background-color: red; */
+
+
+}
+
+.infos-gerais--itens {
+    border: none;
+    border: 1px solid #5b8273;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    margin: 5px;
+    height: 134px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-item {
+
+    font-size: 19px;
+    color: #A6B9B7;
+}
+
+.texto-numero {
+
+    font-size: 40px;
+    color: #0D132B;
+
+}
+
+.calendario {
+    margin: 5px auto;
+    max-width: 368px;
+    width: 80%;
+    height: 384px;
+}
+
+.atividades {
+    padding: 24px;
+    margin: 5px auto;
+    max-width: 368px;
+    width: 80%;
+    height: 384px;
+    border: 1px solid #A6B9B7;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+.evento-captado {
+    border-top: 1px solid #5B827E;
+    width: 100%;
+    min-height: 500px;
+
+    /* background-color: rgb(36, 223, 11); */
+}
+
+.evento-historico {
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(248, 152, 7); */
+}
+
+.cabecalho-eventos-captados {
+    color: #0D132B;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.evento-captado-descricao {
+    padding: 20px;
+    color: #0D132B;
+}
+
+.evento-captado-descricao div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #5B827E;
+}
+
+.btn-ver-mais {
+    border: none;
+    border-radius: 4px;
+    width: 127px;
+    height: 27px;
+    background-color: #ECC004;
+    color: #606060;
+    margin-right: 20px;
+    float: right;
+}
+
+.btn-cadastrar-atividade {
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    background-color: #ECC004;
+    font-size: 10px;
+
+}
+
+.cabecalho-eventos-historico {
+    padding: 20px;
+}
+
+
+.cabecalho-atividades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn-eventos-captados {
+    margin: 5px 0px;
+    border-radius: 4px;
+    border: none;
+    width: 180px;
+    height: 27px;
+    background-color: #ECC004;
+    color: #606060;
+}
+
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .5);
+}
+
+dialog {
+    width: 650px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+dialog label,
+input {
+    display: block;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-cadastro-evento input {
+    padding: 12px;
+    height: 45px;
+    width: 280px;
+}
+
+.form-cadastro-evento select {
+    padding: 10px;
+    height: 27px;
+    width: 247px;
+}
+
+.form-cadastro-evento .check-box {
+    width: 20px;
+}
+
+dialog {
+    border: solid 1px #606060;
+    border-radius: 5px;
+}
+
+
+
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+/* PARTE DO JHONATAH PARA FAZER OS MENUS */
+
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 107px;
+    min-height: 100vh;
+    background-color: #606060;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itens-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 125px;
+    gap: 53px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    color: #f2f2f2;
+    align-items: center;
+    cursor: pointer;
+    transition: all-in-out 1000ms;
+}
+
+.item:hover {
+    opacity: 0.6;
+}
+
+.icon-item {
+    width: 28px;
+    height: 24px;
+}
+
+.menu-principal {
+    width: calc(100vw - 107px);
+}
+
+.top {
+    background: #606060;
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+}
+
+.button {
+    background-color: #ecc004;
+    border: none;
+    padding: 13px 43px;
+    margin-top: 26px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0d132b;
+    cursor: pointer;
+    transition: all ease-in-out 1000ms;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.roda {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linha_rodape {
+    background: #A6A6A6;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+    width: 49.188rem
+        /*787px*/
+    ;
+    height: 0.063rem
+        /*1px*/
+    ;
+    top: 0.063rem
+        /*1px*/
+    ;
+    margin: 0 auto;
+    margin-bottom: 0.438rem
+        /*7px*/
+    ;
+}
+
+.texto_rodape {
+    font-size: 0.875rem
+        /*14px*/
+    ;
+    color: #595959;
+    text-align: center;
+}

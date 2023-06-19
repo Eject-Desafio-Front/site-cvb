@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dash Tela 03</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <link rel="stylesheet" href="../../css/profile-menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="menu-lateral">
+      <img src="../../assets/eject.svg" alt="Logo-eject" class="item" />
+      <div class="itens-menu">
+        <div class="item">
+          <img src="../../assets/house.svg" alt="Log-Inicio" class="icon-item" /><span>Início</span>
+        </div>
+        <div class="item">
+          <img src="../../assets/funil.svg" alt="Logo-Funil" class="icon-item" /><span>Funil</span>
+        </div>
+        <div class="item">
+          <img src="../../assets/team.svg" alt="Logo-entidades" class="icon-item" /><span>Entidades</span>
+        </div>
+        <div class="item">
+          <img src="../../assets/filter.svg" alt="Logo-filtros" class="icon-item" /><span>Filtros</span>
+        </div>
+        <div class="item">
+          <img src="../../assets/user.svg" alt="Logo-Usuário" class="icon-item" /><span>Usuários</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-principal">
+      <div class="top">
+        <img onclick="toggleMenu()" src="../../assets/img-user.svg" alt="Foto-user" class="item" />
+      </div>
+      <div class="sub-menu-container" style="background-color:white;">
+        <div class="sub-menu">
+          <div class="user-info">
+            <div class="user-info-content">
+              <img src="../../assets/avatar.svg" class="user-picture" />
+              <div>
+                <p class="name">Kalliny Gomes</p>
+                <p class="cargo">Gerente executiva</p>
+              </div>
+            </div>
+            <div class="fechar-menu" onclick="toggleMenu()">
+              Sair
+            </div>
+          </div>
+          <div class="item-drop-menu">
+            <img src="../../assets/engrenagem.svg" />
+            <span>Configurações de perfil</span>
+          </div>
+          <div class="item-drop-menu">
+            <img src="../../assets/email.svg" />
+            <span>Editar e-mail</span>
+          </div>
+          <div class="item-drop-menu">
+            <img src="../../assets/cadeado.svg" />
+            <span>Editar senha</span>
+          </div>
+        </div>
+      </div>
+      <div class="perfil">
+        <a href="" class="tag">Usuario &gt;</a>
+        <a href="" class="tag">Meu perfil &gt;</a>
+        <a href="" class="tag"><strong>Alterar email</strong></a>
+      </div>
+      <div id="box">
+        <div class="user">
+          <b>Dados Cadastrais</b><br />
+          <div class="edit"><span>ALTERAR EMAIL </span></div>
+        </div>
+        <div class="inputs">
+          <div class="input">
+            <label for="email">Novo email</label>
+            <input id="email" type="email" placeholder="Ex: exemplo@gmail.com" />
+          </div>
+          <div class="input">
+            <label for="confirm-email">Confirmar email</label>
+            <input id="confirm-email" type="email" placeholder="Ex: exemplo@gmail.com" />
+          </div>
+        </div>
+        <div class="content-button">
+          <button class="button">Salvar</button>
+        </div>
+      </div>
+      <footer id="footer">
+        <hr />
+        <span class="footer-bold">EJECT CVB</span> &copy; 2022 . Desenvolvido pela
+        <span class="footer-bold">EJECT</span>
+        <img src="../../assets/footer.svg" alt="Simbolo EJECT" />
+      </footer>
+    </div>
+  </div>
+</body>
+<script src="../../js/profile-menu.js"></script>
+
+</html>
