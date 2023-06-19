@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+input {
+  outline: none;
+  background: none;
+  border: none;
+}
+ul {
+  list-style-type: none;
+}
+main {
+  margin-left: 107px;
+  padding: 105px 130px 24px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  width: 70vw;
+}
+#menu-side {
+  background-color: #606060;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+.menu-lateral {
+  width: 80px;
+  height: 80px;
+  margin-top: 9px;
+  margin-left: 12px;
+}
+.menu-principal {
+  width: 48px;
+  height: 48px;
+  padding: 11px 36px 11px;
+}
+#menu-vertical {
+  width: 107px;
+  height: 100vh;
+  background-color: #606060;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+}
+.itens-menu {
+  padding: 125px 38px 53px 41px;
+  gap: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #f2f2f2;
+  cursor: pointer;
+  transition: all-in-out 500ms;
+}
+.item:hover {
+  opacity: 0.6;
+}
+.icon-item {
+  width: 28px;
+  height: 24px;
+}
+.search {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-search {
+  background-color: #ffffff;
+  width: 50%;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 45px;
+  border-radius: 5px;
+}
+.title-box {
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+}
+.order {
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  max-width: 1040px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+.card {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  width: 282px;
+  height: 362px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-circle {
+  background: linear-gradient(0deg, #989898, #989898), #000000;
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer {
+  text-align: center;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.footer-bold {
+  font-size: 14px;
+  font-weight: 700;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dash Tela 05</title>
+  <link rel="stylesheet" href="./final-dashboard.css" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <link rel="stylesheet" href="../../css/profile-menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="menu-side">
+    <div class="menu-lateral">
+      <img src="../../assets/eject.svg" alt="logo-da-eject" class="item" />
+    </div>
+    <div class="menu-principal">
+      <div class="top">
+        <img onclick="toggleMenu()" src="../../assets/img-user.svg" alt="user" class="item" />
+      </div>
+      <div class="sub-menu-container" style="background-color:white;">
+        <div class="sub-menu">
+          <div class="user-info">
+            <div class="user-info-content">
+              <img src="../../assets/avatar.svg" class="user-picture" />
+              <div>
+                <p class="name">Kalliny Gomes</p>
+                <p class="cargo">Gerente executiva</p>
+              </div>
+            </div>
+            <div class="fechar-menu" onclick="toggleMenu()">
+              Sair
+            </div>
+          </div>
+          <div class="item-drop-menu">
+            <img src="../../assets/engrenagem.svg" />
+            <span>Configurações de perfil</span>
+          </div>
+          <div class="item-drop-menu">
+            <img src="../../assets/email.svg" />
+            <span>Editar e-mail</span>
+          </div>
+          <div class="item-drop-menu">
+            <img src="../../assets/cadeado.svg" />
+            <span>Editar senha</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav id="menu-vertical">
+    <ul class="itens-menu">
+      <li class="item">
+        <img src="../../assets/house.svg" alt="Log-Inicio" class="icon-item" /><span>Início</span>
+      </li>
+      <li class="item">
+        <img src="../../assets/funil.svg" alt="Logo-Funil" class="icon-item" /><span>Funil</span>
+      </li>
+      <li class="item">
+        <img src="../../assets/team.svg" alt="Logo-entidades" class="icon-item" /><span>Entidades</span>
+      </li>
+      <li class="item">
+        <img src="../../assets/filter.svg" alt="Logo-filtros" class="icon-item" /><span>Filtros</span>
+      </li>
+      <li class="item">
+        <img src="../../assets/user.svg" alt="Logo-Usuário" class="icon-item" /><span>Usuários</span>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="search">
+      Como podemos ajuda-lo?
+      <div class="input-search">
+        <input type="text" />
+        <img src="../../assets/magnifier.svg" alt="lupa-de-busca" />
+      </div>
+    </div>
+    <div class="order">
+      <div class="title-box">tópicos populares</div>
+      <div class="cards">
+        <div class="card">
+          <div class="icon-circle">
+            <img src="../../assets/padhlock.svg" alt="img-padhlock" />
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
+          curabitur sed non amet pellentesque egestas sed sit quis.
+        </div>
+        <div class="card">
+          <div class="icon-circle">
+            <img src="../../assets/key.svg" alt="img-key" />
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
+          curabitur sed non amet pellentesque egestas sed sit quis.
+        </div>
+        <div class="card">
+          <div class="icon-circle">
+            <img src="../../assets/mail.svg" alt="img-mail" />
+          </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
+          curabitur sed non amet pellentesque egestas sed sit quis.
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer">
+    <hr />
+    <span class="footer-bold">EJECT CVB</span> &copy; 2022 . Desenvolvido pela
+    <span class="footer-bold">EJECT</span>
+    <img src="../../assets/footer.svg" alt="Simbolo EJECT" />
+  </footer>
+</body>
+<script src="../../js/profile-menu.js"></script>
+
+</html>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dash Tela 02</title>
+  <title>Dash Tela 04</title>
   <link rel="stylesheet" href="./dashboard.css" />
   <link rel="stylesheet" href="../../css/styles.css" />
   <link rel="stylesheet" href="../../css/profile-menu.css">
@@ -38,7 +38,7 @@
     </div>
     <div class="menu-principal">
       <div class="top">
-        <img src="../../assets/img-user.svg" alt="Foto-user" class="item" onclick="toggleMenu()" />
+        <img onclick="toggleMenu()" src="../../assets/img-user.svg" alt="Foto-user" class="item" />
       </div>
       <div class="sub-menu-container" style="background-color:white;">
         <div class="sub-menu">
@@ -70,35 +70,23 @@
       </div>
       <div class="perfil">
         <a href="" class="tag">Usuario &gt;</a>
-        <a href="" class="tag"><strong>Meu perfil</strong></a>
+        <a href="" class="tag">Meu perfil &gt;</a>
+        <a href="" class="tag"><strong>Alterar SENHA</strong></a>
       </div>
       <div id="box">
         <div class="user">
           <b>Dados Cadastrais</b><br />
-          <div class="edit"><span>INFORMAÇÕES PESSOAIS</span></div>
-          <img src="../../assets/photo.svg" alt="Icone-foto-do-usuario" />
+          <div class="edit"><span>ALTERAR SENHA</span></div>
         </div>
-        <div class="inputs-two">
+        <div class="inputs">
           <div class="input">
-            <label for="email">Nome do Usuário</label>
-            <input id="email" type="text" placeholder="Ex: Lívia Barbosa" />
+            <label for="password">Nova senha</label>
+            <input id="pasword" type="password" />
           </div>
           <div class="input">
-            <label for="office">Cargo</label>
-            <input id="office" type="text" placeholder="Ex: Gerente Executiva" />
+            <label for="confirm-passwor">Confirmar senha</label>
+            <input id="confirm-password" type="password" />
           </div>
-
-          <div class="edit"><span>INFORMAÇÕES DA CONTA</span></div>
-          <div class="input">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="exemplo@gmail.com" />
-          </div>
-          <button>Alterar email</button>
-          <div class="input">
-            <label for="confirm-email">Senha</label>
-            <input id="confirm-email" type="password" />
-          </div>
-          <button>Alterar senha</button>
         </div>
         <div class="content-button">
           <button class="button">Salvar</button>
@@ -114,7 +102,6 @@
     </div>
   </div>
 </body>
-
 <script src="../../js/profile-menu.js"></script>
 
 </html>
