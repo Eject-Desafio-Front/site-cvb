@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/pages/funil/01_funil.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+</head>
+<body>
+    <div class="main">
+        <div class="menu-lateral">
+          <img src="../../assets/logo.svg" alt="Logo-eject" class="item" />
+          <div class="itens-menu">
+            <div class="item">
+              <img
+                src="../../assets/house.svg"
+                alt="Log-Inicio"
+                class="icon-item"
+              /><span>Início</span>
+            </div>
+            <div class="item">
+              <img
+                src="../../assets/funil.svg"
+                alt="Logo-Funil"
+                class="icon-item"
+              /><span>Funil</span>
+            </div>
+            <div class="item">
+              <img
+                src="../../assets/user.svg"
+                alt="Logo-entidades"
+                class="icon-item"
+              /><span>Entidades</span>
+            </div>
+            <div class="item">
+              <img
+                src="../../assets/filter.svg"
+                alt="Logo-filtros"
+                class="icon-item"
+              /><span>Filtros</span>
+            </div>
+            <div class="item">
+              <img
+                src="../../assets/user.svg"
+                alt="Logo-Usuário"
+                class="icon-item"
+              /><span>Usuários</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-principal">
+          <div class="top">
+            <img src="../../assets/img-user.svg" alt="Foto-user" class="item" />
+          </div>
+
+        <main class="corpo_site">
+            <h1 class="titulo">Funil</h1> 
+            <div class="container_pesquisa">
+                <div class="pesquisa">
+                    <input type="text" class="caixa_pesquisar" placeholder="Pesquisar">
+                    <img src="/funil../../assets/lupa.svg" class="lupa" alt="lupa"> 
+    
+                    <img src="/funil../../assets/filtrar.svg" class="icon_filtro" alt="filtros">
+                    <img src="/funil../../assets/remover_filtro.svg" class="icon_remover_filtro" alt="reomover_filtro">
+                </div>
+                <div class="container_botoes">
+                    <a href="#"><button class="botao_pesquisa_1">Informações do ROI</button></a>
+                    <a href="#"><button class="botao_pesquisa_2">Cadastrar evento</button></a>
+                </div>
+            </div>
+            <p class="text_tabela">Mostrando 10 de 51 resultados</p>
+            <table class="tabela">
+              <thead>
+                <tr class="titulos_celula">
+                  <th class="celula_tabela">Nome</th>
+                  <th class="celula_tabela">Etapa</th>
+                  <th class="celula_tabela">Entidade</th>
+                  <th class="celula_tabela">Público</th>
+                  <th class="celula_tabela">Data do Evento</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="linha_tabela">
+                  <td>Nome do Evento</td>
+                  <td ><p class="etapa_formato">Em Captação</p></td>
+                  <td>Associação de Médicos do RN</td>
+                  <td>5000</td>
+                  <td>05/11/2020</td>
+              </tr>
+              <tr class="linha_tabela">
+                  <td>Nome do Evento</td>
+                  <td ><p class="etapa_formato">Em Captação</p></td>
+                  <td>Associação de Médicos do RN</td>
+                  <td>5000</td>
+                  <td>05/11/2020</td>
+              </tr>
+              </tbody>
+              <tfoot>
+                <tr colspan="5" class="container_setas">
+                  <td colspan="5">
+                    <button class="seta">&#60;&#60;</button>
+                    <button class="seta">&#60;</button>
+                    <span class="num_lado">2</span>
+                    <span class="num_centro">3</span>
+                    <span class="num_lado">4</span>
+                    <button class="seta">&#62;</button>
+                    <button class="seta">&#62;&#62;</button>
+                  </td>
+                </tr>
+              </tfoot>
+
+            </table>    
+        </main>
+    <footer class="rodape"><!--rodape-->
+        <hr class="linha_rodape">
+        <div class="container_texto_logo_rodape">
+            <p class="texto_rodape"><b>EJECT CVB</b> © 2022. Desenvolvido pela <b>EJECT</b></p>
+            <img class="Logo_rodape" src="../../assets/logo-dark.svg" alt="Logo_rodape">
+        </div>
+    </footer>
+
+
+    <script src="/funil/01_funil/js/funil_modal.js"></script>
+</body>
+</html>
