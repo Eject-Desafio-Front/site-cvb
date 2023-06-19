@@ -95,20 +95,33 @@
                   <td>5000</td>
                   <td>05/11/2020</td>
               </tr>
+              <tr class="linha_tabela">
+                <td>Nome do Evento</td>
+                <td ><p class="etapa_formato">Em Captação</p></td>
+                <td>Associação de Médicos do RN</td>
+                <td>5000</td>
+                <td>05/11/2020</td>
+              </tr>
+
               </tbody>
-              <tfoot>
-                <tr colspan="5" class="container_setas">
-                  <td colspan="5">
-                    <button class="seta">&#60;&#60;</button>
-                    <button class="seta">&#60;</button>
-                    <span class="num_lado">2</span>
-                    <span class="num_centro">3</span>
-                    <span class="num_lado">4</span>
-                    <button class="seta">&#62;</button>
-                    <button class="seta">&#62;&#62;</button>
-                  </td>
-                </tr>
-              </tfoot>
+
+              <tfoot> 
+                <tr class="tr-foot"> 
+                    <td colspan="6" id="passadorFooter"> 
+                        <div id="passador"> 
+                            <button class="anteanterior" id="anteanterior">&lt;&lt;</button> 
+                            <button class="anterior" id="anterior">&lt;</button> 
+                            <span id="pag_anterior"></span> 
+                            <span id="paginacao">2</span> 
+                            <span id="paginacao">3</span> 
+                            <span id="paginacao">4</span> 
+                            <span id="pag_sucessor"></span> 
+                            <button class="proximo" id="proximo">&gt;</button> 
+                            <button class="posterior" id="posterior">&gt;&gt;</button> 
+                        </div> 
+                    </td> 
+                </tr> 
+            </tfoot>
 
             </table>    
         </main>
