@@ -115,7 +115,9 @@ body {
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: 17px;
+    bottom: 17px
+
+    /*display: flex;*/
 }
 
 .linha_rodape {
@@ -145,15 +147,12 @@ body {
     text-align: center;
 }
 
-/*.container_logo_rodape {
-    position: absolute;
-    left: 930px;
-    top: 9px;
-
-    width: 15px;
-    height: 13.44px;
-}*/
-
+.container_texto_logo_rodape {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 0.5rem;
+}
 @media screen and (max-width: 360px) {
 
     .cabecalho {
@@ -205,12 +204,4 @@ body {
     .rodape {
         bottom: 9px;
     }
-
-    /*.container_logo_rodape {
-    left: 287.98px;
-    bottom: 9px;
-
-    width: 11.15px;
-    height: 11.65px;
-    }*/
 }
